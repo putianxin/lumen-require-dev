@@ -1,0 +1,33 @@
+{
+  "name": "ptx/lumen-require-dev",
+  "description": "Lumen 开发环境集成",
+  "keywords": [
+    "laravel",
+    "lumen"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ptx",
+      "email": "putianxin@vip.qq.com"
+    }
+  ],
+  "require": {
+    "barryvdh/laravel-ide-helper": "^2.4",
+    "doctrine/dbal": "^2.8",
+    "laravelista/lumen-vendor-publish": "^2.1",
+    "phan/phan": "^0.12.14",
+    "ptx/lumen-db-doc": "^1.0",
+    "ptx/lumen-yaml-swagger": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PtxDev\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
