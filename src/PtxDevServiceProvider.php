@@ -1,18 +1,18 @@
 <?php
 
-namespace PTXDev;
+namespace PtxDev;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\ServiceProvider;
 use Laravelista\LumenVendorPublish\VendorPublishCommand;
 
-class YunhanDevServiceProvider extends ServiceProvider
+class PtxDevServiceProvider extends ServiceProvider
 {
     public function register()
     {
         $this->setIdeHelperConfig();
 
-        $this->app->register(\YunhanTech\Swagger\SwaggerLumenServiceProvider::class);
+        $this->app->register(\Ptx\Swagger\SwaggerLumenServiceProvider::class);
         $this->app->register(\Jormin\DDoc\DDocServiceProvider::class);
         $this->app->register(\Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace PTXDev\Phan\Plugins;
+namespace PtxDev\Phan\Plugins;
 
 use Phan\Config;
 use Phan\Language\Type;
