@@ -12,7 +12,7 @@ class PtxDevServiceProvider extends ServiceProvider
     {
         $this->setIdeHelperConfig();
 
-        $this->app->register(\Ptx\Swagger\SwaggerLumenServiceProvider::class);
+        $this->app->register(\PtxDev\Swagger\SwaggerLumenServiceProvider::class);
         $this->app->register(\Jormin\DDoc\DDocServiceProvider::class);
         $this->app->register(\Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);
 
