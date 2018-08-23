@@ -64,8 +64,8 @@ class PhanConfig
         'vendor/psr/log',
         'vendor/symfony',
         'vendor/vlucas/phpdotenv',
-        'vendor/yunhanphp/lumen-require-dev/src',
-        'vendor/yunhanphp/lumen-require/src',
+        'vendor/ptx/lumen-require-dev/src',
+        'vendor/ptx/lumen-require/src',
     ];
 
     private static $exclude_analysis_directory_list = [
