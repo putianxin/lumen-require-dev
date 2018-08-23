@@ -1,6 +1,6 @@
 <?php
 
-namespace PTXDev\Phan;
+namespace PtxDev\Phan;
 
 use Phan\Issue;
 
