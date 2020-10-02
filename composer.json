@@ -16,7 +16,6 @@
     "barryvdh/laravel-ide-helper": "^2.4",
     "doctrine/dbal": "^2.8",
     "laravelista/lumen-vendor-publish": "^2.1",
-    "phan/phan": "^0.12.14",
     "ptx/lumen-db-doc": "^1.0",
     "ptx/lumen-yaml-swagger": "^1.0"
   },
